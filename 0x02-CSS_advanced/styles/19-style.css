@@ -409,6 +409,7 @@ template {
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 
+    /* tagline */
     --section-tagline-margin: 0;
 }
 
