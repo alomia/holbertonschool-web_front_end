@@ -9,11 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    color: #161616;
-}
-
-a {
+body, a {
     color: #161616;
 }
 
@@ -21,10 +17,6 @@ a {
     display: none;
 }
 
-.card-category {
-    color: #D73953;
-}
-
-.section-tagline {
+.card-category, .section-tagline {
     color: #D73953;
 }
