@@ -755,7 +755,3 @@ ul.row {
 .card-work:hover .card-title {
     opacity: 1;
 }
-
-.card-testimonial .card-quote {
-    position: relative;
-}
