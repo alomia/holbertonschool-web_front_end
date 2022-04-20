@@ -432,7 +432,7 @@ template {
     --header-logo-link-left: 0;
 
     /* transition */
-    --transition-duration: 0.3s;
+    --transition-duration: .3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
