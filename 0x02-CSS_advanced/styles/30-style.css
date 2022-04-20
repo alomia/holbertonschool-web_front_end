@@ -752,6 +752,6 @@ ul.row {
     bottom: 0;
     content: "";
 }
-.card-work:hover .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
