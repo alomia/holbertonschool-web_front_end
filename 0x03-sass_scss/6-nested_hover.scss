@@ -5,7 +5,7 @@ $secondary-text-color: #00ff00;
 
 button {
   color: $primary-text-color;
-  :hover {
+  &:hover {
     color: $secondary-text-color;
   }
 }
