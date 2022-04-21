@@ -6,7 +6,7 @@ This project is about learning CSS and how to style a web page. This project is 
 
 ------
 
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/ce6718f1b55e6c1580c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220421%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220421T042024Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d16725515559f4ec9b2dbf72a253b87b5766542a5752a7e25cd4317eda7b459a">
+![CSS : r/ProgrammerHumor](https://preview.redd.it/bptzx7ur4uj11.jpg?auto=webp&s=e6660e4545b2463db71c4acb481624730914f8e1)
 
 ### Resources
 
