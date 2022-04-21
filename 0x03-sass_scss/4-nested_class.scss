@@ -1,11 +1,11 @@
 // Nested class
 
-$primary-text-color: #3D3D3D;
-$secondary-text-color: #FF0000;
+$primary-text-color: #3d3d3d;
+$secondary-text-color: #ff0000;
 
 body {
-    color: $primary-text-color;
-    .red {
-        color: $secondary-text-color;
-    }
+  color: $primary-text-color;
+  .red {
+    color: $secondary-text-color;
+  }
 }
