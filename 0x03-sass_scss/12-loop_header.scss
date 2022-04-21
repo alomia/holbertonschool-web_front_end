@@ -1,0 +1,7 @@
+// Loop Headers
+
+@for $number from 1 to 6 {
+    h#{$number} {
+        font-size: #{$number}px;
+    }
+}
