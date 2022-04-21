@@ -8,14 +8,12 @@ $text-color-warning: #ff0000;
   font-size: $font-size-info;
 }
 
-.success, .warning {
-    @extend .info;
-}
-
 .success {
+  @extend .info;
   color: $text-color-success;
 }
 
 .warning {
+  @extend .info;
   color: $text-color-warning;
 }
