@@ -9,7 +9,7 @@ body {
   h1 {
     font-size: $h1-body-font-size;
   }
-  .smaller {
+  > .smaller {
     font-size: $smaller-font-size;
   }
 }
