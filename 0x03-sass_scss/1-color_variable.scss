@@ -1,7 +1,10 @@
 // Color variable
 $color-font: #3d3d3d;
 
-body,
-p {
+body {
   color: $color-font;
+}
+
+p {
+    color: $color-font;
 }
