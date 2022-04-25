@@ -10,8 +10,6 @@ This project is about learning CSS and how to style a web page. This project is 
 
 ### Resources
 
-**Read or watch**
-
 - [CSS Reference - A free visual guide to CSS](https://intranet.hbtn.io/rltoken/7zgAvnHaPhhWHIEEr9VXQg)
 - [Can I use,,, Support tables for HTML5, CSS3, etc](https://intranet.hbtn.io/rltoken/dg_RKNrW7wJe6MvFjVulYQ)
 - [CSS Reference](https://intranet.hbtn.io/rltoken/g5ZCzFdcn8SuReONAJZD5Q)
