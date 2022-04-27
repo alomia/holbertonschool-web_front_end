@@ -1,0 +1,56 @@
+:root {
+    --color-one: #264653;
+    --color-two: #2a9d8f;
+    --color-three: #e9c46a;
+    --color-four: #f4a261;
+    --color-five: #e76f51;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.box {
+    width: 60px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box5 {
+    width: 70px;
+    height: 50px;
+}
+
+.box2, .box4 {
+    width: 130px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.box1 {
+    background-color: var(--color-one);
+}
+
+.box2 {
+    background-color: var(--color-two);
+}
+
+.box3 {
+    background-color: var(--color-three);
+    width: 250px;
+    height: 150px;
+    font-size: 80px;
+}
+
+.box4 {
+    background-color: var(--color-four);
+}
+
+.box5 {
+    background-color: var(--color-five);
+}
