@@ -863,8 +863,3 @@ textarea:focus {
   border: 0.1rem solid var(--color-grey);
   background-color: var(--color-light-grey);
 }
-
-::placeholder {
-  font-style: italic;
-  font-size: var(--font-size-small);
-}
