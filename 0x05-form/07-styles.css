@@ -1007,14 +1007,14 @@ textarea:valid:not(:placeholder-shown) {
   background: none;
   cursor: pointer;
   z-index: 3;
-  transition: width .4s cubic-bezier(0, 0.795, 0, 1);
+  transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
 }
 
-.form-search input[type="search"] {
+.form-search input[type="search"]:focus {
   position: relative;
   width: 15rem;
   z-index: 1;
-  border-bottom: .1rem solid var(--color-grey);
+  border-bottom: 0.1rem solid var(--color-grey);
   padding: 0;
   cursor: text;
   margin: 0 1rem;
