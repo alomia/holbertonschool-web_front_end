@@ -8,3 +8,4 @@
 - 0x03. Sass & Scss
 - 0x04. Flexbox
 - 0x05. Forms
+- 0x06. Responsive design
