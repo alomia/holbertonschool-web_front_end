@@ -29,6 +29,8 @@ Web accessibility, or eAccessibility, is the inclusive practice of ensuring ther
 - [European label (Web Accessibility): Euracert - Home page](https://intranet.hbtn.io/rltoken/DsxGlFcMObADMOuJ6y8nDw)
 - [Section508.gov | GSA Government-wide IT Accessibility Program](https://intranet.hbtn.io/rltoken/bwPuWIeb6MMZCopmv5KJOA)
 
+------
+
 ### Learning Objectives
 
 - ARIA’s main purpose
