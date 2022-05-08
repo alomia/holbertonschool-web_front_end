@@ -18,6 +18,8 @@ During this project I have learned Bootstrap and its benefits, Bootstrap is a fr
 
 - [Bootstrap](https://intranet.hbtn.io/rltoken/2co2ipxHSi4kjIU6wAHzgw)
 
+------
+
 ### Learning Objectives
 
 - Usage of Containers
