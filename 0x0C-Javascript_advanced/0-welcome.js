@@ -5,5 +5,5 @@ function welcome(firstName, lastName) {
     alert(`Welcome ${fullName}!`);
   }
 
-  displayFullName(fullName);
+  displayFullName();
 }
