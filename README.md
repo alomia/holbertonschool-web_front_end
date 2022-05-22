@@ -17,3 +17,4 @@ In this repository you will find different front-end projects developed during t
 - [0x06. Responsive design](https://github.com/alomia/holbertonschool-web_front_end/tree/main/0x06-responsive_design)
 - [0x07-accessibility](https://github.com/alomia/holbertonschool-web_front_end/tree/main/0x07-accessibility)
 - [0x0A-Bootstrap](https://github.com/alomia/holbertonschool-web_front_end/tree/main/0x0A-Bootstrap)
+- [0x0C. JavaScript advanced](https://github.com/alomia/holbertonschool-web_front_end/tree/main/0x0C-Javascript_advanced)
