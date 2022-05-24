@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 2</title>
+
+    </head>
+
+    <body>
+
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" type="application/javascript"></script>
+    <script>
+        function createFamilyTree() {
+            const p1 = "<td>Guillaume</td> <td>salva</td>";
+            const p2 = "<td>Paulette</td> <td>salva</td>";
+            const p3 = "<td>Antoine</td> <td>salva</td>";
+
+            const thead = "<thead/> <tr/> <th>Firstname</th> <th>Lastname</th>";
+            const tbody = `<tbody/> <tr/> ${p1} <tr/> ${p2} <tr/> ${p3}`;
+
+            const table = $(`<table/>${thead}${tbody}`);
+            $("body").append(table);
+        }
+
+        createFamilyTree();
+    </script>
+</html>
