@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Task 2</title>
+
+    </head>
+
+    <body>
+
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" type="application/javascript"></script>
+    <script>
+        function createFamilyTree() {
+
+            // creates the table tag
+            $("body").append("<table/>");
+
+            // creates the tags thead and tr.
+            $("table").append("<thead/> <tr/>");
+
+            //creates the th tag with a class to identify it
+            $("thead tr").append('<th class="column_1">');
+            $("thead tr").append('<th class="column_2">');
+            $(".column_1").text("Fristname");
+            $(".column_2").text("Lastname");
+
+            // creates the tbody tag
+            $("table").append("<tbody/>");
+
+            // creates a row using the tr tag and a class to identify the row
+            $("tbody").append('<tr class="row_2"/>');
+
+            // creates elements within the row
+            $(".row_2").append('<td class="column_1"/>');
+            $(".row_2").append('<td class="column_2"/>');
+
+            // adds text to the elements within the row
+            $(".row_2 .column_1").text("Guillaume");
+            $(".row_2 .column_2").text("Salve");
+
+            $("tbody").append('<tr class="row_3"/>');
+            $(".row_3").append('<td class="column_1"/>');
+            $(".row_3").append('<td class="column_2"/>');
+            $(".row_3 .column_1").text("Paulette");
+            $(".row_3 .column_2").text("Salve");
+
+            $("tbody").append('<tr class="row_4"/>');
+            $(".row_4").append('<td class="column_1"/>');
+            $(".row_4").append('<td class="column_2"/>');
+            $(".row_4 .column_1").text("Antoine");
+            $(".row_4 .column_2").text("Salve");
+        }
+
+        createFamilyTree();
+    </script>
+</html>
