@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="form">
+      <h2>Login to the website</h2>
+      <input id="firstname" type="text", placeholder="Firstname">
+      <input id="email" type="text" placeholder="Email">
+      <button onclick="setCookies()">Log me in</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script>
+      function setCookies() {
+        const firstname = document.getElementById('firstname').value;
+        const email = document.getElementById('email').value;
+        Cookies.set('firstname', firstname, { expires: 10});
+        Cookies.set('email', email, { expires: 10});
+        
+        showWelcomeMessageOrForm();
+      }
+
+      function showCookies() {
+        const paragraph = document.createElement("p");
+        const cookies = document.cookie.split(";");
+
+        const firstname = cookies[0].split("=")[1];
+        const email = cookies[1].split("=")[1];
+
+        document.body.appendChild(paragraph);
+        paragraph.innerHTML = `Email: ${email.toUpperCase()} - Firstname: ${firstname.toUpperCase()}`;
+      }
+
+      function showForm() {
+        const msg = document.getElementById('msg');
+        msg.remove();
+        document.getElementById('form').style.display = "block";
+      }
+
+      function hideForm() {
+        document.getElementById('form').style.display = "none";
+      }
+
+      function deleteCookiesAndShowForm() {
+        Cookies.remove('firstname');
+        Cookies.remove('email');
+        showForm();
+      }
+
+      function showWelcomeMessageOrForm() {
+        const firstname = Cookies.get('firstname');
+        const email = Cookie.get('email');
+
+        if (!firstname|| !email) {
+          showForm();
+        } else {
+          const h1 = document.createElement("h1");
+          const anchor = document.createElement("a");
+
+          h1.innerHTML = `Welcome ${firstname.toUpperCase()}`;
+          anchor.innerHTML = "(logout)";
+          anchor.onclick = function() {
+            deleteCookiesAndShowForm();
+            h1.style.display = "none";
+          }
+
+          hideForm();
+
+          anchor.style.cursor = 'pointer';
+          anchor.style.fontWeight = 'normal';
+          anchor.style.fontStyle = 'italic';
+          anchor.style.marginLeft = '10px';
+
+          h1.setAttribute('id', 'msg');
+          h1.appendChild(anchor);
+          document.body.appendChild(h1);
+        }
+      }
+    </script>
+  </body>
+</html>
